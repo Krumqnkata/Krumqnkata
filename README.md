@@ -1,7 +1,8 @@
 - 👋 Hi, I’m @Krumqnkata
 - 👀 I’m interested in programming and computers
-- 🌱 I’m currently learning Python
-- ⚡ Fun fact: I am a panda
+- 🌱 I’m currently learning Python and Java
+- I love cybersecurity
+
 
 <!---
 Krumqnkata/Krumqnkata is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
