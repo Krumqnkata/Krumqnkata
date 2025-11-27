@@ -1,7 +1,26 @@
 - 👋 Hi, I’m @Krumqnkata
 - 👀 I’m interested in programming and computers
+
+# Здравей, аз съм [Твоето Име]! 👋
+
+🚀 **Open Source Enthusiast** | 🌍 **Based in Bulgaria**
+
+Обичам да създавам неща, които живеят в интернет. В момента се фокусирам върху модерни уеб технологии и оптимизация на производителността.
+
+---
+
+### 🛠️ Tech Stack
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+---
+
+### 📊 GitHub Stats
+![Krumqnkata's GitHub stats](https://github-readme-stats.vercel.app/api?username=[ТВОЯТ_GITHUB_USERNAME]&show_icons=true&theme=radical)
+
+### 🌱 В момента уча
 - 🌱 I’m currently learning Python and Java
-- I love cybersecurity
+- 🛡️ Cyber Security Basics
 
 
 <!---
