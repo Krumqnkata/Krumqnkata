@@ -104,6 +104,20 @@ I'm a student at **PGKNMA “Prof. Minko Balkanski”** and take part in school 
 
 <sub>Public repository data, refreshed daily. Language mix counts the primary language of original repositories and excludes forks.</sub>
 
+### Contribution calendar
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/generated/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/generated/snake-light.svg">
+    <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/generated/snake-light.svg" alt="Animated snake following Krumqnkata's GitHub contribution calendar" width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Krumqnkata/Krumqnkata/actions/workflows/profile-visuals.yml"><img src="https://github.com/Krumqnkata/Krumqnkata/actions/workflows/profile-visuals.yml/badge.svg" alt="Daily profile visuals refresh status"></a>
+</p>
+
 ## My toolkit
 
 <p>
