@@ -1,7 +1,8 @@
 # Profile visuals
 
-The README uses repository-owned images, real RAW Studio screenshots, public
-repository statistics and a contribution-calendar animation.
+The README uses repository-owned visual assets, public repository statistics
+and a contribution-calendar animation. Its project summaries also include
+selected projects with private source code.
 
 ## Automatic refresh
 
@@ -38,13 +39,6 @@ Set `GH_TOKEN` if authenticated API access is needed. For an offline snapshot:
 ```bash
 python3 scripts/generate_profile.py --input public-repositories.json
 ```
-
-## Gallery
-
-The RAW Studio screenshots are copied unchanged from the public project's
-`docs/interface-dark.png` and `docs/interface-light.png`. They show the actual
-interface with a generated test DNG. Follow the links in the README for the
-current project documentation and Windows build artifacts.
 
 ## Animation
 

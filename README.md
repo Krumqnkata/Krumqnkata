@@ -11,7 +11,6 @@
 <p align="center">
   <a href="#about-me">About me</a> &nbsp; / &nbsp;
   <a href="#selected-projects">Projects</a> &nbsp; / &nbsp;
-  <a href="#gallery">Gallery</a> &nbsp; / &nbsp;
   <a href="#github-activity">Activity</a> &nbsp; / &nbsp;
   <a href="#my-toolkit">Toolkit</a> &nbsp; / &nbsp;
   <a href="#на-български">На български</a>
@@ -21,7 +20,7 @@
 
 Hi, I'm **Krum**, also known as **Krumqnkata** — a student developer from Bulgaria.
 
-I like turning everyday problems into useful software: a school bell that follows the timetable, a map that helps people find their bus, or a desktop app that makes photo editing easier. My projects span **Python desktop applications, web platforms, Discord bots and Linux services**.
+I like turning everyday problems into useful software: a digital platform for the school community, a map that helps people find their bus, or a desktop app that makes photo editing easier. My projects span **Python desktop applications, web platforms, Discord bots and Linux services**.
 
 I'm a student at **PGKNMA “Prof. Minko Balkanski”** and take part in school technology projects and IT club activities. I enjoy following an idea through the whole process: building the interface, connecting the backend, setting up the server and improving the experience for the people who use it.
 
@@ -29,7 +28,34 @@ I'm a student at **PGKNMA “Prof. Minko Balkanski”** and take part in school 
 
 ## Selected projects
 
+Some projects have private source code. Their summaries and website links are included alongside my public repositories.
+
 <table>
+<tr>
+<td colspan="2" valign="top">
+<h3><a href="https://pgknma.space">PGKNMA Blog — School Digital Platform</a></h3>
+<p>A platform for the school community with articles, events, polls, user profiles, notifications and an administration panel. It brings together a React frontend and a separate Django REST API.</p>
+<p><b>My contribution:</b> frontend development, backend API work and server deployment and maintenance.</p>
+<p><sub><b>React · TypeScript · Vite · Django REST Framework · MySQL</b></sub></p>
+<p><b><a href="https://pgknma.space">Website</a> · Private source</b></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://logopedkrumova.com">Daniela Krumova — Professional Website</a></h3>
+<p>A Bulgarian and English website for a speech therapy practice, with a responsive layout, service information and search-engine metadata.</p>
+<p><b>My contribution:</b> frontend development, bilingual page layouts and website presentation.</p>
+<p><sub><b>HTML · CSS · JavaScript · Responsive design · SEO</b></sub></p>
+<p><b><a href="https://logopedkrumova.com">Website</a> · <a href="https://logopedkrumova.com/en/">English version</a> · Private source</b></p>
+</td>
+<td width="50%" valign="top">
+<h3>TopTestche — Educational Platform</h3>
+<p>A frontend prototype for a student testing platform, with interfaces for tests, practice, results, attempt history and student profiles.</p>
+<p><b>My contribution:</b> UI development, navigation and prototyping of learning workflows.</p>
+<p><sub><b>React · TypeScript · TanStack Router · Tailwind CSS</b></sub></p>
+<p><b>In development · Private source</b></p>
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/Krumqnkata/python-raw-processor">RAW Studio</a></h3>
@@ -74,27 +100,6 @@ I'm a student at **PGKNMA “Prof. Minko Balkanski”** and take part in school 
   <a href="https://github.com/Krumqnkata?tab=repositories"><b>Explore all my repositories →</b></a>
 </p>
 
-## Gallery
-
-### RAW Studio — add, process, save
-
-<a href="https://github.com/Krumqnkata/python-raw-processor">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/gallery/raw-studio-dark.png" alt="Actual RAW Studio interface in dark theme and easy mode: add photos, preview automatic corrections, and export." width="100%">
-</a>
-
-<sub>Actual application interface with a generated test DNG.</sub>
-
-<details>
-<summary><b>See the light theme and advanced controls</b></summary>
-
-<br>
-
-<a href="https://github.com/Krumqnkata/python-raw-processor">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/gallery/raw-studio-light.png" alt="Actual RAW Studio interface in light theme with advanced correction controls." width="100%">
-</a>
-
-</details>
-
 ## GitHub activity
 
 <p align="center">
@@ -134,8 +139,8 @@ I'm a student at **PGKNMA “Prof. Minko Balkanski”** and take part in school 
 | Area | Technologies I work with |
 | :--- | :--- |
 | **Languages** | Python, JavaScript, TypeScript, PHP |
-| **Web & APIs** | React, FastAPI, Django, HTML, CSS, WordPress |
-| **Data** | PostgreSQL, SQLite |
+| **Web & APIs** | React, FastAPI, Django REST Framework, HTML, CSS, WordPress |
+| **Data** | PostgreSQL, MySQL, SQLite |
 | **Servers & deployment** | Linux / Debian, Docker, Apache, systemd |
 | **Desktop & media** | Tkinter / CustomTkinter, OpenCV, rawpy, FFmpeg |
 | **Everyday tools** | Git, GitHub, VS Code |
@@ -144,6 +149,7 @@ I learn by building and refining real projects. Alongside this toolkit, I'm deve
 
 ## Current focus
 
+- **PGKNMA Blog** — developing the school platform, connecting the frontend and backend, and maintaining its deployment.
 - **RAW Studio** — refining the add, process and export workflow, with automatic corrections and convenient batch editing.
 - **Stara Zagora Transit** — improving route discovery, timetable browsing and the display of real vehicle data.
 - **IT Club Discord Bot** — developing useful club features, the administration panel and voice/music tools.
@@ -171,6 +177,9 @@ Have a suggestion? Share it through the project issues:
 
 Сред проектите ми са:
 
+- **[ПГКНМА Блог](https://pgknma.space)** — училищна дигитална платформа с публикации, събития, анкети, профили, известия и административен панел. Работя по React интерфейса, Django REST API и сървърната поддръжка. Кодът е частен.
+- **[Сайтът на Даниела Крумова](https://logopedkrumova.com)** — двуезичен професионален сайт на български и английски с адаптивен дизайн и информация за логопедичната практика. Кодът е частен.
+- **TopTestche** — frontend прототип на образователна платформа с интерфейси за тестове, упражнения, резултати и профили. Проектът е в разработка, а кодът е частен.
 - **[RAW Studio](https://github.com/Krumqnkata/python-raw-processor)** — добавяш RAW снимките, обработваш ги и запазваш резултата.
 - **[Транспорт Стара Загора](https://github.com/Krumqnkata/stara-zagora-transit)** — карта, линии, спирки, разписания и реални GPS позиции при налични данни.
 - **[School Bell Cutter](https://github.com/Krumqnkata/bell-song-cutter)** — анализ на песни, избор на подходящи откъси и подготовка на музикални звънци.
