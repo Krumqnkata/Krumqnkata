@@ -53,15 +53,10 @@ I'm a student at **PGKNMA “Prof. Minko Balkanski”** and take part in school 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 <h3><a href="https://github.com/Krumqnkata/Discord-Bot-Notifier">IT Club Discord Bot</a></h3>
 <p>A Discord bot and web panel for club meetings, notifications and community commands, with voice and music features.</p>
 <p><sub><b>Python · discord.py · FastAPI · SQLite</b></sub></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/Krumqnkata/bell-song-cutter">School Bell Cutter</a></h3>
-<p>An audio tool that analyses songs, suggests suitable excerpts and lets the user preview, adjust and export clips for school bells.</p>
-<p><sub><b>Python · librosa · FFmpeg · Audio processing</b></sub></p>
 </td>
 </tr>
 </table>
@@ -116,7 +111,7 @@ I learn by building and refining real projects. Alongside this toolkit, I'm deve
 
 - **[RAW Studio](https://github.com/Krumqnkata/python-raw-processor)** — добавяш RAW снимките, обработваш ги и запазваш резултата.
 - **[Транспорт Стара Загора](https://github.com/Krumqnkata/stara-zagora-transit)** — карта, линии, спирки, разписания и реални GPS позиции при налични данни.
-- **[Училищен звънец](https://github.com/Krumqnkata/School-Bell)** и **[School Bell Cutter](https://github.com/Krumqnkata/bell-song-cutter)** — управление на звънците и подготовка на музикални откъси.
+- **[Училищен звънец](https://github.com/Krumqnkata/School-Bell)** — управление на графика и автоматично възпроизвеждане на звънците.
 - **[School AI](https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION)** — училищна информационна система с QR баджове, киоски и екрани.
 - **[Discord ботът на ИТ клуба](https://github.com/Krumqnkata/Discord-Bot-Notifier)** — сбирки, известия, уеб панел и функции за общността.
 
