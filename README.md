@@ -33,6 +33,7 @@ Projects with private source code are included through descriptions of my work a
 <p><b>My contribution:</b> frontend, backend API, deployment and maintenance.</p>
 <p><sub><b>React · TypeScript · Vite · Django REST Framework · MySQL</b></sub></p>
 <p><b><a href="https://pgknma.space">Website</a> · Private source</b></p>
+<p><a href="https://pgknma.space"><img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/pgknma-blog-homepage.png" alt="Screenshot of the PGKNMA Blog homepage, showing the navigation, school introduction and school photograph" width="100%"></a></p>
 </td>
 </tr>
 <tr>
