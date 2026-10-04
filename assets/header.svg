@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="390" viewBox="0 0 1280 390" role="img" aria-labelledby="title desc">
-  <title id="title">Krum — student developer from Bulgaria</title>
-  <desc id="desc">A dark navy banner with cyan and gold accents. Krum builds practical software with Python, web technologies and Linux.</desc>
+  <title id="title">Krum — student developer from Stara Zagora, Bulgaria</title>
+  <desc id="desc">A dark navy banner with cyan and gold accents. Krum builds practical software with Python, Java, web technologies and Linux.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101e35"/><stop offset="1" stop-color="#080f1c"/></linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#63e6dc"/><stop offset="1" stop-color="#6aa9ff"/></linearGradient>
@@ -12,14 +12,15 @@
   <ellipse cx="1060" cy="150" rx="300" ry="245" fill="url(#glow)"/>
   <rect x="56" y="46" width="27" height="4" rx="2" fill="url(#accent)"/>
   <text x="96" y="54" fill="#a3b4cb" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2.2">KRUMQNKATA / DEVELOPER PROFILE</text>
-  <text x="56" y="111" fill="#63e6dc" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2.7">STUDENT DEVELOPER · BULGARIA</text>
+  <text x="56" y="111" fill="#63e6dc" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.8">STUDENT DEVELOPER · STARA ZAGORA, BULGARIA</text>
   <text x="51" y="220" fill="#f3f7ff" font-family="Arial, Helvetica, sans-serif" font-size="114" font-weight="700" letter-spacing="-5">Krum<tspan fill="#63e6dc">.</tspan></text>
   <text x="58" y="268" fill="#c4d1e2" font-family="Arial, Helvetica, sans-serif" font-size="25">Code for the everyday.</text>
   <path d="M58 299H706" stroke="#293b54"/>
   <g font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.7">
-    <text x="58" y="339" fill="#edc789">01<tspan fill="#a5b8d1"> / PYTHON</tspan></text>
-    <text x="253" y="339" fill="#edc789">02<tspan fill="#a5b8d1"> / WEB</tspan></text>
-    <text x="425" y="339" fill="#edc789">03<tspan fill="#a5b8d1"> / LINUX</tspan></text>
+    <text x="58" y="339" fill="#edc789">01<tspan dx="5" fill="#a5b8d1">/ PYTHON</tspan></text>
+    <text x="238" y="339" fill="#edc789">02<tspan dx="5" fill="#a5b8d1">/ JAVA</tspan></text>
+    <text x="398" y="339" fill="#edc789">03<tspan dx="5" fill="#a5b8d1">/ WEB</tspan></text>
+    <text x="548" y="339" fill="#edc789">04<tspan dx="5" fill="#a5b8d1">/ LINUX</tspan></text>
   </g>
   <g fill="none" stroke="#314862" stroke-width="1.5">
     <path d="M820 87H1016L1046 57H1193"/>
@@ -38,5 +39,5 @@
     <text x="836" y="220" fill="#8fa7c4">school · community · tools</text>
     <text x="836" y="258" fill="#edc789">idea <tspan fill="#7590b3">→</tspan> code <tspan fill="#7590b3">→</tspan> everyday life</text>
   </g>
-  <rect x="1127" y="245" width="7" height="17" fill="#63e6dc" opacity=".75"/>
+  <rect x="1140" y="245" width="7" height="17" fill="#63e6dc" opacity=".75"/>
 </svg>

@@ -4,6 +4,17 @@ The README uses repository-owned visual assets, public repository statistics
 and a contribution-calendar animation. Its project summaries also include
 selected projects with private source code.
 
+## Static artwork
+
+`assets/header.svg` is the profile banner. The small technology badges in
+`assets/` share the same navy background, type and colour accents.
+The Java, PHP, Django and PostgreSQL badges appear in the toolkit;
+Arduino appears with the hardware interests.
+
+These SVGs contain their own shapes and text, with accessible labels.
+They do not depend on external images, web fonts or an image-generation service.
+Edit them directly when changing the profile's wording or toolkit.
+
 ## Automatic refresh
 
 [Refresh profile visuals](https://github.com/Krumqnkata/Krumqnkata/actions/workflows/profile-visuals.yml)

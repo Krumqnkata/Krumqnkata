@@ -1,51 +1,36 @@
 <!-- Visual assets live in this repository. Public statistics and the snake refresh through GitHub Actions. -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/header.svg" alt="Krum — student developer from Bulgaria. Python, web and Linux. Code for the everyday." width="100%">
-</p>
-
-<p align="center">
-  <b>Python &amp; Java · Web development · Automation · Linux</b>
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/header.svg" alt="Krum — student developer from Stara Zagora, Bulgaria. Python, Java, web and Linux. Code for the everyday." width="100%">
 </p>
 
 <p align="center">
   <a href="#about-me">About me</a> &nbsp; / &nbsp;
   <a href="#selected-projects">Projects</a> &nbsp; / &nbsp;
-  <a href="#github-activity">Activity</a> &nbsp; / &nbsp;
   <a href="#my-toolkit">Toolkit</a> &nbsp; / &nbsp;
-  <a href="#school--community">Community</a> &nbsp; / &nbsp;
+  <a href="#beyond-the-code">Beyond the code</a> &nbsp; / &nbsp;
+  <a href="#github-activity">Activity</a> &nbsp; / &nbsp;
   <a href="#на-български">На български</a>
 </p>
 
 ## About me
 
-Hi, I'm **Krum**, also known as **Krumqnkata** — a student developer from Bulgaria.
+Hi, I'm **Krum — Krumqnkata**, a student developer from **Stara Zagora, Bulgaria**, studying at **PGKNMA “Prof. Minko Balkanski”**.
 
-I like turning everyday problems into useful software: a digital platform for the school community, a map that helps people find their bus, or a desktop app that makes photo editing easier. I work with **Python and Java**, and build **desktop tools, web platforms and Linux services**.
+I work with **Python, Java, web technologies and Linux**. I build school platforms, desktop tools and practical services, taking projects from the interface and API through to deployment and maintenance.
 
-I'm a student at **PGKNMA “Prof. Minko Balkanski”** and take part in school technology projects and IT club activities. I enjoy following an idea through the whole process: building the interface, connecting the backend, setting up the server and improving the experience for the people who use it.
-
-> The best part of building something is seeing it become useful to someone.
-
-## What I can build
-
-| What I build | What it involves | Examples |
-| :--- | :--- | :--- |
-| **Websites & platforms** | Responsive interfaces, REST APIs and administration tools | PGKNMA Blog · Daniela Krumova website |
-| **Desktop & audio tools** | Python interfaces, audio analysis, previews and export | School Bell Cutter |
-| **Maps & data interfaces** | Interactive maps, timetables and data integration | Stara Zagora Transit |
-| **Deployed services** | Linux server setup, databases and application maintenance | PGKNMA Blog deployment |
+> I like software that earns its place in someone's everyday life.
 
 ## Selected projects
 
-Some projects have private source code. Their summaries and website links are included alongside my public repositories.
+Projects with private source code are included through descriptions of my work and public website links.
 
 <table>
 <tr>
 <td colspan="2" valign="top">
 <h3><a href="https://pgknma.space">PGKNMA Blog — School Digital Platform</a></h3>
-<p>A platform for the school community with articles, events, polls, user profiles, notifications and an administration panel. It brings together a React frontend and a separate Django REST API.</p>
-<p><b>My contribution:</b> frontend development, backend API work and server deployment and maintenance.</p>
+<p>A school platform for articles, events, polls, profiles and notifications, with a React frontend, Django REST API and administration tools.</p>
+<p><b>My contribution:</b> frontend, backend API, deployment and maintenance.</p>
 <p><sub><b>React · TypeScript · Vite · Django REST Framework · MySQL</b></sub></p>
 <p><b><a href="https://pgknma.space">Website</a> · Private source</b></p>
 </td>
@@ -54,24 +39,45 @@ Some projects have private source code. Their summaries and website links are in
 <td width="50%" valign="top">
 <h3><a href="https://logopedkrumova.com">Daniela Krumova — Professional Website</a></h3>
 <p>A Bulgarian and English website for a speech therapy practice, with a responsive layout, service information and search-engine metadata.</p>
-<p><b>My contribution:</b> frontend development, bilingual page layouts and website presentation.</p>
+<p><b>My contribution:</b> frontend, bilingual layouts and website presentation.</p>
 <p><sub><b>HTML · CSS · JavaScript · Responsive design · SEO</b></sub></p>
 <p><b><a href="https://logopedkrumova.com">Website</a> · <a href="https://logopedkrumova.com/en/">English version</a> · Private source</b></p>
 </td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/Krumqnkata/python-raw-processor">RAW Studio</a></h3>
-<p>A desktop photo editor with automatic RAW corrections, individual edits, previews and batch JPG/PNG export. Built around a simple workflow: add, process, save.</p>
-<p><sub><b>Python · CustomTkinter · rawpy · OpenCV</b></sub></p>
-<p><b><a href="https://github.com/Krumqnkata/python-raw-processor">Code</a> · <a href="https://github.com/Krumqnkata/python-raw-processor/blob/main/README.md">Guide</a> · <a href="https://github.com/Krumqnkata/python-raw-processor/actions/workflows/windows-package.yml">Windows builds</a></b></p>
-<p><a href="https://github.com/Krumqnkata/python-raw-processor/actions/workflows/tests.yml"><img src="https://github.com/Krumqnkata/python-raw-processor/actions/workflows/tests.yml/badge.svg?branch=main" alt="RAW Studio Python checks"></a></p>
-</td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/Krumqnkata/stara-zagora-transit">Stara Zagora Transit</a></h3>
 <p>An interactive city transport map with routes, stops, timetables and journey planning. Displays real GPS vehicle positions when the data feed is available.</p>
 <p><sub><b>JavaScript · Python · GTFS · OpenStreetMap</b></sub></p>
 <p><b><a href="https://github.com/Krumqnkata/stara-zagora-transit">Code</a> · <a href="https://github.com/Krumqnkata/stara-zagora-transit/blob/main/README.md">Guide &amp; data sources</a></b></p>
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>Behind PGKNMA Blog — connecting the pieces</b></summary>
+
+<br>
+
+The blog brings together publishing, events and ways for students to participate. Behind those pages, the React frontend and Django backend live in separate private repositories.
+
+Working on both sides means connecting the interface to the API, organising data and administration, and keeping the deployed service running. That combination of development and ongoing maintenance makes this one of my most important projects.
+
+[Visit PGKNMA Blog →](https://pgknma.space)
+
+</details>
+
+<details>
+<summary><b>More projects — desktop, audio &amp; school tools</b></summary>
+
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Krumqnkata/python-raw-processor">RAW Studio</a></h3>
+<p>A desktop RAW photo editor with automatic corrections, previews, individual edits and batch JPG/PNG export.</p>
+<p><sub><b>Python · CustomTkinter · rawpy · OpenCV</b></sub></p>
+<p><b><a href="https://github.com/Krumqnkata/python-raw-processor">Code</a> · <a href="https://github.com/Krumqnkata/python-raw-processor/blob/main/README.md">Guide</a> · <a href="https://github.com/Krumqnkata/python-raw-processor/actions/workflows/windows-package.yml">Windows builds</a></b></p>
+<p><a href="https://github.com/Krumqnkata/python-raw-processor/actions/workflows/tests.yml"><img src="https://github.com/Krumqnkata/python-raw-processor/actions/workflows/tests.yml/badge.svg?branch=main" alt="RAW Studio Python checks"></a></p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/Krumqnkata/bell-song-cutter">School Bell Cutter</a></h3>
@@ -90,33 +96,65 @@ Some projects have private source code. Their summaries and website links are in
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/Krumqnkata/Discord-Bot-Notifier">IT Club Discord Bot</a></h3>
-<p>A Discord bot and web panel for club meetings, notifications and community commands, with voice and music features.</p>
+<p>A bot and web panel for club meetings, notifications and community commands.</p>
 <p><sub><b>Python · discord.py · FastAPI · SQLite</b></sub></p>
-<p><b><a href="https://github.com/Krumqnkata/Discord-Bot-Notifier">Code</a> · <a href="https://github.com/Krumqnkata/Discord-Bot-Notifier/blob/main/README-club.md">Club guide</a> · <a href="https://github.com/Krumqnkata/Discord-Bot-Notifier/blob/main/MUSIC-SETUP.md">Music setup</a></b></p>
+<p><b><a href="https://github.com/Krumqnkata/Discord-Bot-Notifier">Code &amp; documentation</a></b></p>
 </td>
 </tr>
 </table>
+
+</details>
 
 <p align="right">
   <a href="https://github.com/Krumqnkata?tab=repositories"><b>Explore all my repositories →</b></a>
 </p>
 
-## Behind PGKNMA Blog
+## My toolkit
 
-<details>
-<summary><b>Building for the school community</b></summary>
+<p>
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/python.svg" alt="Python" height="32">
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/java.svg" alt="Java" height="32">
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/typescript.svg" alt="TypeScript" height="32">
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/javascript.svg" alt="JavaScript" height="32">
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/php.svg" alt="PHP" height="32">
+</p>
 
-<br>
+<p>
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/react.svg" alt="React" height="32">
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/django.svg" alt="Django" height="32">
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/fastapi.svg" alt="FastAPI" height="32">
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/postgresql.svg" alt="PostgreSQL" height="32">
+</p>
 
-**The purpose.** [PGKNMA Blog](https://pgknma.space) brings school news, events, polls and community features into one place. It connects published content with ways for students to take part.
+<p>
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/debian.svg" alt="Debian" height="32">
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/docker.svg" alt="Docker" height="32">
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/git.svg" alt="Git" height="32">
+</p>
 
-**My contribution.** I work on the React interface, the Django REST API and the server deployment. The frontend and backend live in separate private repositories, but together they form one project.
+| Area | Technologies I work with |
+| :--- | :--- |
+| **Languages** | Python, Java, JavaScript, TypeScript, PHP |
+| **Web & APIs** | React, FastAPI, Django REST Framework, HTML, CSS, WordPress |
+| **Data** | PostgreSQL, MySQL, SQLite |
+| **Servers & deployment** | Linux / Debian, Docker, Apache, systemd |
+| **Desktop & media** | Tkinter / CustomTkinter, OpenCV, rawpy, FFmpeg |
+| **Everyday tools** | Git, GitHub, VS Code |
 
-**The work behind the pages.** An interface is only one part of a platform. The API, database, administration tools and deployment also need to work together. This project gives me experience across that whole process, including the maintenance that follows the initial build.
+## Beyond the code
 
-**Why I include it here.** It represents a substantial part of my work, even though its source is private. The website and this summary show what I am building and where I contribute.
+I take part in school technology projects and IT club activities, sharing practical programming experience and working on useful tools with the school community.
 
-</details>
+<p>
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/arduino.svg" alt="Arduino" height="32">
+</p>
+
+I also experiment with **Arduino and RFID**, work with **3D printing**, and prepare **audio for school projects**. I enjoy the point where software meets a physical device, a printed object or something people hear and use.
+
+## Current focus
+
+- **PGKNMA Blog** — developing the platform and maintaining its deployment.
+- **Stara Zagora Transit** — improving route discovery, timetables and vehicle data.
 
 ## GitHub activity
 
@@ -141,62 +179,9 @@ Some projects have private source code. Their summaries and website links are in
   <a href="https://github.com/Krumqnkata/Krumqnkata/actions/workflows/profile-visuals.yml"><img src="https://github.com/Krumqnkata/Krumqnkata/actions/workflows/profile-visuals.yml/badge.svg" alt="Daily profile visuals refresh status"></a>
 </p>
 
-## My toolkit
-
-<p>
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/python.svg" alt="Python" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/typescript.svg" alt="TypeScript" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/javascript.svg" alt="JavaScript" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/react.svg" alt="React" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/fastapi.svg" alt="FastAPI" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/debian.svg" alt="Debian" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/docker.svg" alt="Docker" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/git.svg" alt="Git" height="32">
-</p>
-
-| Area | Technologies I work with |
-| :--- | :--- |
-| **Languages** | Python, Java, JavaScript, TypeScript, PHP |
-| **Web & APIs** | React, FastAPI, Django REST Framework, HTML, CSS, WordPress |
-| **Data** | PostgreSQL, MySQL, SQLite |
-| **Servers & deployment** | Linux / Debian, Docker, Apache, systemd |
-| **Desktop & media** | Tkinter / CustomTkinter, OpenCV, rawpy, FFmpeg |
-| **Everyday tools** | Git, GitHub, VS Code |
-
-I learn by building and refining real projects. Alongside software development, I experiment with **Arduino, RFID and hardware automation**.
-
-## School & community
-
-I take part in technology projects and IT club activities at **PGKNMA “Prof. Minko Balkanski”**. School is where many of my ideas connect with everyday needs: sharing information and building practical software for the community.
-
-- **IT club:** sharing practical programming experience, working with GitHub and taking part in technology projects.
-- **School projects:** working on the blog, information interfaces and audio tools.
-- **Beyond software:** experimenting with Arduino and RFID, working with 3D printing and preparing audio for school projects.
-
-### How I work
-
-I like following a project through the whole process: understanding the task, building the interface and backend, deploying it and improving its usability. I learn by working on real projects and refining them as I go.
-
-## Current focus
-
-- **PGKNMA Blog** — developing the school platform, connecting the frontend and backend, and maintaining its deployment.
-- **RAW Studio** — refining the add, process and export workflow, with automatic corrections and convenient batch editing.
-- **Stara Zagora Transit** — improving route discovery, timetable browsing and the display of real vehicle data.
-
-Alongside these projects, I keep exploring simpler interfaces, reliable Linux services and hardware automation.
-
 ## Let's build something useful
 
-I'd be glad to explore ideas around:
-
-- **Education:** learning tools, school platforms and accessible information.
-- **Web applications:** useful interfaces, APIs and tools that make information easier to access.
-- **Everyday tasks:** desktop utilities, Linux services and small hardware experiments.
-
-Have a suggestion for an existing project? Share it through the project issues:
-[RAW Studio](https://github.com/Krumqnkata/python-raw-processor/issues),
-[Stara Zagora Transit](https://github.com/Krumqnkata/stara-zagora-transit/issues) or
-[School AI](https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION/issues).
+I'm interested in educational tools, web applications and everyday automation. For an idea, feedback or collaboration around a project, open an issue in its [repository](https://github.com/Krumqnkata?tab=repositories).
 
 ## На български
 
@@ -205,33 +190,21 @@ Have a suggestion for an existing project? Share it through the project issues:
 
 <br>
 
-Ученик съм в **ПГКНМА „Проф. Минко Балкански“**. Обичам да правя програми, които решават конкретни проблеми и намират място в ежедневието — в училището, в общността или на собствения ми компютър.
+Ученик съм в **ПГКНМА „Проф. Минко Балкански“ в Стара Загора**. Работя с **Python, Java, уеб технологии и Linux** и създавам училищни платформи, настолни приложения и автоматизации.
 
-Работя с **Python и Java**, създавам **настолни приложения, уеб проекти и автоматизации**, а покрай тях се занимавам и с Linux сървъри, бази данни и настройване на услуги. Участвам в училищни технологични проекти и дейностите на ИТ клуба.
+Занимавам се с интерфейса, API, базите данни и разгръщането на сървъра. Харесва ми да виждам как една идея се превръща в нещо, което хората използват.
 
-**Какво мога да създавам:** уеб сайтове и платформи, REST API, настолни и аудио инструменти, интерактивни карти и услуги, които разгръщам и поддържам на Linux сървъри.
+**Избрани проекти:**
 
-Сред проектите ми са:
-
-- **[ПГКНМА Блог](https://pgknma.space)** — училищна дигитална платформа с публикации, събития, анкети, профили, известия и административен панел. Работя по React интерфейса, Django REST API и сървърната поддръжка. Кодът е частен.
-- **[Сайтът на Даниела Крумова](https://logopedkrumova.com)** — двуезичен професионален сайт на български и английски с адаптивен дизайн и информация за логопедичната практика. Кодът е частен.
-- **[RAW Studio](https://github.com/Krumqnkata/python-raw-processor)** — добавяш RAW снимките, обработваш ги и запазваш резултата.
-- **[Транспорт Стара Загора](https://github.com/Krumqnkata/stara-zagora-transit)** — карта, линии, спирки, разписания и реални GPS позиции при налични данни.
-- **[School Bell Cutter](https://github.com/Krumqnkata/bell-song-cutter)** — анализ на песни, избор на подходящи откъси и подготовка на музикални звънци.
+- **[ПГКНМА Блог](https://pgknma.space)** — публикации, събития, анкети, профили и известия за училищната общност. Работя по React интерфейса, Django REST API и поддръжката. Кодът е частен.
+- **[Сайтът на Даниела Крумова](https://logopedkrumova.com)** — професионален сайт на български и английски с адаптивен дизайн. Кодът е частен.
+- **[Транспорт Стара Загора](https://github.com/Krumqnkata/stara-zagora-transit)** — карта, линии, разписания и GPS позиции при налични данни.
+- **[RAW Studio](https://github.com/Krumqnkata/python-raw-processor)** — обработка на RAW снимки и групово експортиране.
+- **[School Bell Cutter](https://github.com/Krumqnkata/bell-song-cutter)** — анализ на песни и подготовка на музикални звънци.
 - **[School AI](https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION)** — училищна информационна система с QR баджове, киоски и екрани.
-- **[Discord ботът на ИТ клуба](https://github.com/Krumqnkata/Discord-Bot-Notifier)** — сбирки, известия, уеб панел и функции за общността.
+- **[Ботът на ИТ клуба](https://github.com/Krumqnkata/Discord-Bot-Notifier)** — известия, сбирки и уеб панел.
 
-### Защо ПГКНМА Блог е важен за мен
-
-Блогът събира училищни новини, събития, анкети и функции за общността на едно място. Работата ми по него обхваща интерфейса, API, базата данни и разгръщането на сървъра. Това е значима част от проектите ми и заслужава място тук, въпреки че кодът е частен.
-
-### Училище, общност и начин на работа
-
-В ИТ клуба споделям практически опит с програмирането, работя с GitHub и участвам в технологични проекти. Интересувам се и от 3D принтиране и подготовка на аудио за училищни проекти.
-
-Обичам да проследявам целия процес — от конкретната задача, през интерфейса и сървъра, до подобренията, които правят решението по-удобно. Бих се радвал да работя по идеи за образователни платформи, инструменти за общности и полезни автоматизации.
-
-Експериментирам с **Arduino и RFID** и търся как софтуерът може да управлява полезни устройства.
+**Извън кода:** участвам в училищни технологични проекти и дейностите на ИТ клуба, експериментирам с Arduino и RFID, занимавам се с 3D принтиране и подготовка на аудио.
 
 **За мен добрата идея оживява, когато някой започне да я използва.**
 
