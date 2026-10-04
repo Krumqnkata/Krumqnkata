@@ -124,6 +124,7 @@ Working on both sides means connecting the interface to the API, organising data
   <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/django.svg" alt="Django" height="32">
   <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/fastapi.svg" alt="FastAPI" height="32">
   <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/postgresql.svg" alt="PostgreSQL" height="32">
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/mysql.svg" alt="MySQL" height="32">
 </p>
 
 <p>
