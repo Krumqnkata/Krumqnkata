@@ -13,6 +13,7 @@
   <a href="#selected-projects">Projects</a> &nbsp; / &nbsp;
   <a href="#github-activity">Activity</a> &nbsp; / &nbsp;
   <a href="#my-toolkit">Toolkit</a> &nbsp; / &nbsp;
+  <a href="#school--community">Community</a> &nbsp; / &nbsp;
   <a href="#на-български">На български</a>
 </p>
 
@@ -25,6 +26,15 @@ I like turning everyday problems into useful software: a digital platform for th
 I'm a student at **PGKNMA “Prof. Minko Balkanski”** and take part in school technology projects and IT club activities. I enjoy following an idea through the whole process: building the interface, connecting the backend, setting up the server and improving the experience for the people who use it.
 
 > The best part of building something is seeing it become useful to someone.
+
+## What I can build
+
+| What I build | What it involves | Examples |
+| :--- | :--- | :--- |
+| **Websites & platforms** | Responsive interfaces, REST APIs and administration tools | PGKNMA Blog · Daniela Krumova website |
+| **Desktop & audio tools** | Python interfaces, audio analysis, previews and export | School Bell Cutter |
+| **Community automation** | Discord bots, meeting notifications and web panels | IT Club Discord Bot |
+| **Deployed services** | Linux server setup, databases and application maintenance | PGKNMA Blog deployment |
 
 ## Selected projects
 
@@ -100,6 +110,23 @@ Some projects have private source code. Their summaries and website links are in
   <a href="https://github.com/Krumqnkata?tab=repositories"><b>Explore all my repositories →</b></a>
 </p>
 
+## Behind PGKNMA Blog
+
+<details>
+<summary><b>Building for the school community</b></summary>
+
+<br>
+
+**The purpose.** [PGKNMA Blog](https://pgknma.space) brings school news, events, polls and community features into one place. It connects published content with ways for students to take part.
+
+**My contribution.** I work on the React interface, the Django REST API and the server deployment. The frontend and backend live in separate private repositories, but together they form one project.
+
+**The work behind the pages.** An interface is only one part of a platform. The API, database, administration tools and deployment also need to work together. This project gives me experience across that whole process, including the maintenance that follows the initial build.
+
+**Why I include it here.** It represents a substantial part of my work, even though its source is private. The website and this summary show what I am building and where I contribute.
+
+</details>
+
 ## GitHub activity
 
 <p align="center">
@@ -147,6 +174,18 @@ Some projects have private source code. Their summaries and website links are in
 
 I learn by building and refining real projects. Alongside this toolkit, I'm developing my **Java** skills and experimenting with **Arduino, RFID and hardware automation**.
 
+## School & community
+
+I take part in technology projects and IT club activities at **PGKNMA “Prof. Minko Balkanski”**. School is where many of my ideas connect with everyday needs: sharing information, organising meetings and making useful tools for the community.
+
+- **IT club:** sharing practical experience with Python, GitHub and Discord setup, and developing tools for club activities.
+- **School projects:** working on the blog, information interfaces and audio tools.
+- **Beyond software:** experimenting with Arduino and RFID, working with 3D printing and preparing audio for school projects.
+
+### How I work
+
+I like following a project through the whole process: understanding the task, building the interface and backend, deploying it and improving its usability. I learn by working on real projects and refining them as I go.
+
 ## Current focus
 
 - **PGKNMA Blog** — developing the school platform, connecting the frontend and backend, and maintaining its deployment.
@@ -158,8 +197,13 @@ Alongside these projects, I keep exploring simpler interfaces, reliable Linux se
 
 ## Let's build something useful
 
-I'm interested in school technology, practical desktop tools, web applications and automation.
-Have a suggestion? Share it through the project issues:
+I'd be glad to explore ideas around:
+
+- **Education:** learning tools, school platforms and accessible information.
+- **Communities:** Discord automation, meeting tools and useful web panels.
+- **Everyday tasks:** desktop utilities, Linux services and small hardware experiments.
+
+Have a suggestion for an existing project? Share it through the project issues:
 [RAW Studio](https://github.com/Krumqnkata/python-raw-processor/issues),
 [Stara Zagora Transit](https://github.com/Krumqnkata/stara-zagora-transit/issues) or
 [School AI](https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION/issues).
@@ -175,6 +219,8 @@ Have a suggestion? Share it through the project issues:
 
 Работя по **настолни Python приложения, уеб проекти, Discord ботове и автоматизации**, а покрай тях се занимавам и с Linux сървъри, бази данни и настройване на услуги. Участвам в училищни технологични проекти и дейностите на ИТ клуба.
 
+**Какво мога да създавам:** уеб сайтове и платформи, REST API, настолни и аудио инструменти, Discord ботове и услуги, които разгръщам и поддържам на Linux сървъри.
+
 Сред проектите ми са:
 
 - **[ПГКНМА Блог](https://pgknma.space)** — училищна дигитална платформа с публикации, събития, анкети, профили, известия и административен панел. Работя по React интерфейса, Django REST API и сървърната поддръжка. Кодът е частен.
@@ -185,6 +231,16 @@ Have a suggestion? Share it through the project issues:
 - **[School Bell Cutter](https://github.com/Krumqnkata/bell-song-cutter)** — анализ на песни, избор на подходящи откъси и подготовка на музикални звънци.
 - **[School AI](https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION)** — училищна информационна система с QR баджове, киоски и екрани.
 - **[Discord ботът на ИТ клуба](https://github.com/Krumqnkata/Discord-Bot-Notifier)** — сбирки, известия, уеб панел и функции за общността.
+
+### Защо ПГКНМА Блог е важен за мен
+
+Блогът събира училищни новини, събития, анкети и функции за общността на едно място. Работата ми по него обхваща интерфейса, API, базата данни и разгръщането на сървъра. Това е значима част от проектите ми и заслужава място тук, въпреки че кодът е частен.
+
+### Училище, общност и начин на работа
+
+В ИТ клуба споделям практически опит с Python, GitHub и настройването на Discord и разработвам инструменти за клубните дейности. Интересувам се и от 3D принтиране и подготовка на аудио за училищни проекти.
+
+Обичам да проследявам целия процес — от конкретната задача, през интерфейса и сървъра, до подобренията, които правят решението по-удобно. Бих се радвал да работя по идеи за образователни платформи, инструменти за общности и полезни автоматизации.
 
 Продължавам да уча **Java** и да експериментирам с **Arduino и RFID**. Най-много ме привлича целият път от идеята до работещото решение — и после онези малки подобрения, които правят програмата по-удобна за човека отсреща.
 
