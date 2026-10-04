@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="390" viewBox="0 0 1280 390" role="img" aria-labelledby="title desc">
+  <title id="title">Krum — student developer from Bulgaria</title>
+  <desc id="desc">A dark navy banner with cyan and gold accents. Krum builds practical software with Python, web technologies and Linux.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101e35"/><stop offset="1" stop-color="#080f1c"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#63e6dc"/><stop offset="1" stop-color="#6aa9ff"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#234b73" stop-opacity=".42"/><stop offset="1" stop-color="#234b73" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#809fc6" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="1278" height="388" rx="22" fill="url(#bg)" stroke="#263850"/>
+  <rect x="1" y="1" width="1278" height="388" rx="22" fill="url(#grid)"/>
+  <ellipse cx="1060" cy="150" rx="300" ry="245" fill="url(#glow)"/>
+  <rect x="56" y="46" width="27" height="4" rx="2" fill="url(#accent)"/>
+  <text x="96" y="54" fill="#a3b4cb" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2.2">KRUMQNKATA / DEVELOPER PROFILE</text>
+  <text x="56" y="111" fill="#63e6dc" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2.7">STUDENT DEVELOPER · BULGARIA</text>
+  <text x="51" y="220" fill="#f3f7ff" font-family="Arial, Helvetica, sans-serif" font-size="114" font-weight="700" letter-spacing="-5">Krum<tspan fill="#63e6dc">.</tspan></text>
+  <text x="58" y="268" fill="#c4d1e2" font-family="Arial, Helvetica, sans-serif" font-size="25">Code for the everyday.</text>
+  <path d="M58 299H706" stroke="#293b54"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.7">
+    <text x="58" y="339" fill="#edc789">01<tspan fill="#a5b8d1"> / PYTHON</tspan></text>
+    <text x="253" y="339" fill="#edc789">02<tspan fill="#a5b8d1"> / WEB</tspan></text>
+    <text x="425" y="339" fill="#edc789">03<tspan fill="#a5b8d1"> / LINUX</tspan></text>
+  </g>
+  <g fill="none" stroke="#314862" stroke-width="1.5">
+    <path d="M820 87H1016L1046 57H1193"/>
+    <path d="M829 317H997L1034 354H1193"/>
+    <path d="M1154 146H1194V271H1124"/>
+    <circle cx="820" cy="87" r="5"/><circle cx="1193" cy="57" r="5"/>
+    <circle cx="829" cy="317" r="5"/><circle cx="1193" cy="354" r="5"/>
+  </g>
+  <rect x="811" y="109" width="347" height="176" rx="14" fill="#0d1829" stroke="#36516e"/>
+  <path d="M812 150H1157" stroke="#293d56"/>
+  <circle cx="834" cy="131" r="4" fill="#edc789"/>
+  <circle cx="849" cy="131" r="4" fill="#6aa9ff"/>
+  <circle cx="864" cy="131" r="4" fill="#63e6dc"/>
+  <g font-family="monospace" font-size="18">
+    <text x="836" y="186" fill="#63e6dc">$ build something useful</text>
+    <text x="836" y="220" fill="#8fa7c4">school · community · tools</text>
+    <text x="836" y="258" fill="#edc789">idea <tspan fill="#7590b3">→</tspan> code <tspan fill="#7590b3">→</tspan> everyday life</text>
+  </g>
+  <rect x="1127" y="245" width="7" height="17" fill="#63e6dc" opacity=".75"/>
+</svg>
