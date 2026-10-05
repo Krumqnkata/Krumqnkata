@@ -54,13 +54,23 @@ Projects with private source code are included through descriptions of my work a
 </table>
 
 <details>
-<summary><b>Behind PGKNMA Blog — connecting the pieces</b></summary>
+<summary><b>Behind PGKNMA Blog — technical overview</b></summary>
 
 <br>
 
-The blog brings together publishing, events and ways for students to participate. Behind those pages, the React frontend and Django backend live in separate private repositories.
+The platform combines a separate **React frontend** and **Django backend**, with **MySQL for production data**.
 
-Working on both sides means connecting the interface to the API, organising data and administration, and keeping the deployed service running. That combination of development and ongoing maintenance makes this one of my most important projects.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/pgknma-blog-architecture.svg" alt="Simplified architecture: React and TypeScript exchange JSON with Django REST Framework; Django accesses MySQL through its ORM and includes a Django Unfold administration panel." width="100%">
+</p>
+
+- **Interface:** React, TypeScript and Vite power the pages; TanStack Query fetches and caches server data.
+- **API &amp; administration:** Django REST Framework validates requests and applies permissions. Django Unfold provides the content administration interface within the backend.
+- **Data &amp; deployment:** MySQL stores production records, with SQLite available for local development. The React build and Django service are deployed with Linux and Apache.
+
+**One request in practice:** when the news page needs fresh data, the frontend requests posts from the API. Django queries the database and returns JSON, which React uses to render the page.
+
+**My contribution:** frontend and API development, connecting the data flow, deployment and ongoing maintenance. The source lives in separate private repositories.
 
 [Visit PGKNMA Blog →](https://pgknma.space)
 
@@ -205,6 +215,8 @@ I'm interested in educational tools, web applications and everyday automation. F
 - **[School Bell Cutter](https://github.com/Krumqnkata/bell-song-cutter)** — анализ на песни и подготовка на музикални звънци.
 - **[School AI](https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION)** — училищна информационна система с QR баджове, киоски и екрани.
 - **[Ботът на ИТ клуба](https://github.com/Krumqnkata/Discord-Bot-Notifier)** — известия, сбирки и уеб панел.
+
+**Технически поглед към ПГКНМА Блог:** React и TypeScript изграждат интерфейса, а TanStack Query управлява заявките и кеширането на данни. Django REST API обработва заявките, проверява правата за достъп и работи с MySQL чрез Django ORM. Административният панел използва Django Unfold. Работя по свързването на тези части, разгръщането им на Linux сървър с Apache и поддръжката.
 
 **Извън кода:** участвам в училищни технологични проекти и дейностите на ИТ клуба, експериментирам с Arduino и RFID, занимавам се с 3D принтиране и подготовка на аудио.
 

@@ -8,12 +8,22 @@ selected projects with private source code.
 
 `assets/header.svg` is the profile banner. The small technology badges in
 `assets/` share the same navy background, type and colour accents.
-The Java, PHP, Django and PostgreSQL badges appear in the toolkit;
+The Java, PHP, Django, PostgreSQL and MySQL badges appear in the toolkit;
 Arduino appears with the hardware interests.
 
 These SVGs contain their own shapes and text, with accessible labels.
 They do not depend on external images, web fonts or an image-generation service.
 Edit them directly when changing the profile's wording or toolkit.
+
+## Blog architecture diagram
+
+`assets/pgknma-blog-architecture.svg` is a simplified application view of
+PGKNMA Blog: React and TypeScript communicate with Django REST Framework,
+which accesses production MySQL data through the Django ORM. Django Unfold
+administration is part of the same backend. Local development may use SQLite.
+
+The diagram summarises the frontend and backend architecture documentation.
+It omits media storage, external integrations and detailed hosting routes.
 
 ## Automatic refresh
 
