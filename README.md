@@ -19,8 +19,6 @@ Hi, I'm **Krum — Krumqnkata**, a student developer from **Stara Zagora, Bulgar
 
 I work with **Python, Java, web technologies and Linux**. I build school platforms, desktop tools and practical services, taking projects from the interface and API through to deployment and maintenance.
 
-> I like software that earns its place in someone's everyday life.
-
 ## Selected projects
 
 Projects with private source code are included through descriptions of my work and public website links.
@@ -49,6 +47,23 @@ Projects with private source code are included through descriptions of my work a
 <p>An interactive city transport map with routes, stops, timetables and journey planning. Displays real GPS vehicle positions when the data feed is available.</p>
 <p><sub><b>JavaScript · Python · GTFS · OpenStreetMap</b></sub></p>
 <p><b><a href="https://github.com/Krumqnkata/stara-zagora-transit">Code</a> · <a href="https://github.com/Krumqnkata/stara-zagora-transit/blob/main/README.md">Guide &amp; data sources</a></b></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Krumqnkata/noise-measure-tool">Noise Meter</a></h3>
+<p>A real-time sound level meter in the browser: live dB dial, sound source recognition with YAMNet, spectrum and third-octave bands, noise dose, EU and Bulgarian norms, recordings and printable reports.</p>
+<p><sub><b>Python · FastAPI · WebSocket · Tailwind CSS · SQLite · YAMNet</b></sub></p>
+<p><b><a href="https://github.com/Krumqnkata/noise-measure-tool">Code</a> · <a href="https://github.com/Krumqnkata/noise-measure-tool/blob/main/README.en.md">Guide (EN)</a></b></p>
+<p><a href="https://github.com/Krumqnkata/noise-measure-tool"><img src="https://raw.githubusercontent.com/Krumqnkata/noise-measure-tool/main/docs/screenshots/meter.png" alt="Screenshot of the Noise Meter level view with the dB dial and live noise scale" width="100%"></a></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Krumqnkata/python-raw-processor">RAW Studio</a></h3>
+<p>A desktop RAW photo editor with automatic corrections, previews, individual edits and batch JPG/PNG export.</p>
+<p><sub><b>Python · CustomTkinter · rawpy · OpenCV</b></sub></p>
+<p><b><a href="https://github.com/Krumqnkata/python-raw-processor">Code</a> · <a href="https://github.com/Krumqnkata/python-raw-processor/blob/main/README.md">Guide</a> · <a href="https://github.com/Krumqnkata/python-raw-processor/actions/workflows/windows-package.yml">Windows builds</a></b></p>
+<p><a href="https://github.com/Krumqnkata/python-raw-processor/actions/workflows/tests.yml"><img src="https://github.com/Krumqnkata/python-raw-processor/actions/workflows/tests.yml/badge.svg?branch=main" alt="RAW Studio Python checks"></a></p>
+<p><a href="https://github.com/Krumqnkata/python-raw-processor"><img src="https://raw.githubusercontent.com/Krumqnkata/python-raw-processor/main/docs/interface-dark.png" alt="Screenshot of the RAW Studio interface in the dark theme" width="100%"></a></p>
 </td>
 </tr>
 </table>
@@ -84,11 +99,11 @@ The platform combines a separate **React frontend** and **Django backend**, with
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/Krumqnkata/python-raw-processor">RAW Studio</a></h3>
-<p>A desktop RAW photo editor with automatic corrections, previews, individual edits and batch JPG/PNG export.</p>
-<p><sub><b>Python · CustomTkinter · rawpy · OpenCV</b></sub></p>
-<p><b><a href="https://github.com/Krumqnkata/python-raw-processor">Code</a> · <a href="https://github.com/Krumqnkata/python-raw-processor/blob/main/README.md">Guide</a> · <a href="https://github.com/Krumqnkata/python-raw-processor/actions/workflows/windows-package.yml">Windows builds</a></b></p>
-<p><a href="https://github.com/Krumqnkata/python-raw-processor/actions/workflows/tests.yml"><img src="https://github.com/Krumqnkata/python-raw-processor/actions/workflows/tests.yml/badge.svg?branch=main" alt="RAW Studio Python checks"></a></p>
+<h3><a href="https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION">School AI</a></h3>
+<p>A school information platform with QR badges, kiosk and display PWAs, an assistant and an administration panel for content and devices.</p>
+<p><sub><b>Python · FastAPI · PostgreSQL · WebSocket · PWA</b></sub></p>
+<p><b><a href="https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION">Code</a> · <a href="https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION/blob/main/ADMIN_GUIDE.md">Admin guide</a> · <a href="https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION/blob/main/docs/KIOSK_PWA.md">Kiosk &amp; screens</a></b></p>
+<p><a href="https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION/actions/workflows/ci.yml"><img src="https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION/actions/workflows/ci.yml/badge.svg?branch=main" alt="School AI CI status"></a></p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/Krumqnkata/bell-song-cutter">School Bell Cutter</a></h3>
@@ -99,17 +114,16 @@ The platform combines a separate **React frontend** and **Django backend**, with
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION">School AI</a></h3>
-<p>A school information platform with QR badges, kiosk and display PWAs, an assistant and an administration panel for content and devices.</p>
-<p><sub><b>Python · FastAPI · PostgreSQL · WebSocket · PWA</b></sub></p>
-<p><b><a href="https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION">Code</a> · <a href="https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION/blob/main/ADMIN_GUIDE.md">Admin guide</a> · <a href="https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION/blob/main/docs/KIOSK_PWA.md">Kiosk &amp; screens</a></b></p>
-<p><a href="https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION/actions/workflows/ci.yml"><img src="https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION/actions/workflows/ci.yml/badge.svg?branch=main" alt="School AI CI status"></a></p>
-</td>
-<td width="50%" valign="top">
 <h3><a href="https://github.com/Krumqnkata/Discord-Bot-Notifier">IT Club Discord Bot</a></h3>
 <p>A bot and web panel for club meetings, notifications and community commands.</p>
 <p><sub><b>Python · discord.py · FastAPI · SQLite</b></sub></p>
 <p><b><a href="https://github.com/Krumqnkata/Discord-Bot-Notifier">Code &amp; documentation</a></b></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Krumqnkata/cybersecurity-fake-virus">Cybersecurity Classroom Demos</a></h3>
+<p>Two visible, harmless teaching tools for school cybersecurity lessons: a simulation of computer-incident symptoms and a <a href="https://github.com/Krumqnkata/cybersecurity-keylogger">keystroke demo</a> that runs only with explicit start and stop.</p>
+<p><sub><b>Python · Tkinter · Windows</b></sub></p>
+<p><b><a href="https://github.com/Krumqnkata/cybersecurity-fake-virus">Incident simulation</a> · <a href="https://github.com/Krumqnkata/cybersecurity-keylogger">Keystroke demo</a></b></p>
 </td>
 </tr>
 </table>
@@ -122,44 +136,19 @@ The platform combines a separate **React frontend** and **Django backend**, with
 
 ## My toolkit
 
-<p>
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/python.svg" alt="Python" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/java.svg" alt="Java" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/typescript.svg" alt="TypeScript" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/javascript.svg" alt="JavaScript" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/php.svg" alt="PHP" height="32">
-</p>
-
-<p>
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/react.svg" alt="React" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/django.svg" alt="Django" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/fastapi.svg" alt="FastAPI" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/postgresql.svg" alt="PostgreSQL" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/mysql.svg" alt="MySQL" height="32">
-</p>
-
-<p>
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/debian.svg" alt="Debian" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/docker.svg" alt="Docker" height="32">
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/git.svg" alt="Git" height="32">
-</p>
-
 | Area | Technologies I work with |
 | :--- | :--- |
 | **Languages** | Python, Java, JavaScript, TypeScript, PHP |
 | **Web & APIs** | React, FastAPI, Django REST Framework, HTML, CSS, WordPress |
 | **Data** | PostgreSQL, MySQL, SQLite |
 | **Servers & deployment** | Linux / Debian, Docker, Apache, systemd |
-| **Desktop & media** | Tkinter / CustomTkinter, OpenCV, rawpy, FFmpeg |
+| **Desktop & media** | Tkinter / CustomTkinter, OpenCV, MediaPipe, rawpy, FFmpeg |
+| **Audio & ML** | librosa, YAMNet, WebSocket streaming |
 | **Everyday tools** | Git, GitHub, VS Code |
 
 ## Beyond the code
 
 I take part in school technology projects and IT club activities, sharing practical programming experience and working on useful tools with the school community.
-
-<p>
-  <img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/arduino.svg" alt="Arduino" height="32">
-</p>
 
 I also experiment with **Arduino and RFID**, work with **3D printing**, and prepare **audio for school projects**. I enjoy the point where software meets a physical device, a printed object or something people hear and use.
 
@@ -167,6 +156,7 @@ I also experiment with **Arduino and RFID**, work with **3D printing**, and prep
 
 - **PGKNMA Blog** — developing the platform and maintaining its deployment.
 - **Stara Zagora Transit** — improving route discovery, timetables and vehicle data.
+- **Noise Meter** — room acoustics, sound recognition and norm-based reports.
 
 ## GitHub activity
 
@@ -193,7 +183,7 @@ I also experiment with **Arduino and RFID**, work with **3D printing**, and prep
 
 ## Let's build something useful
 
-I'm interested in educational tools, web applications and everyday automation. For an idea, feedback or collaboration around a project, open an issue in its [repository](https://github.com/Krumqnkata?tab=repositories).
+I'm interested in educational tools, web applications and everyday automation. For an idea, feedback or collaboration, email me at **[krumidanikrumov@abv.bg](mailto:krumidanikrumov@abv.bg)** or open an issue in the project's [repository](https://github.com/Krumqnkata?tab=repositories).
 
 ## На български
 
@@ -211,22 +201,23 @@ I'm interested in educational tools, web applications and everyday automation. F
 - **[ПГКНМА Блог](https://pgknma.space)** — публикации, събития, анкети, профили и известия за училищната общност. Работя по React интерфейса, Django REST API и поддръжката. Кодът е частен.
 - **[Сайтът на Даниела Крумова](https://logopedkrumova.com)** — професионален сайт на български и английски с адаптивен дизайн. Кодът е частен.
 - **[Транспорт Стара Загора](https://github.com/Krumqnkata/stara-zagora-transit)** — карта, линии, разписания и GPS позиции при налични данни.
+- **[Шумомер](https://github.com/Krumqnkata/noise-measure-tool)** — шумомер в браузъра с разпознаване на звуци, спектър, норми на ЕС и България и протоколи.
 - **[RAW Studio](https://github.com/Krumqnkata/python-raw-processor)** — обработка на RAW снимки и групово експортиране.
 - **[School Bell Cutter](https://github.com/Krumqnkata/bell-song-cutter)** — анализ на песни и подготовка на музикални звънци.
 - **[School AI](https://github.com/Krumqnkata/AI-TV-COMPUTER_VISION)** — училищна информационна система с QR баджове, киоски и екрани.
 - **[Ботът на ИТ клуба](https://github.com/Krumqnkata/Discord-Bot-Notifier)** — известия, сбирки и уеб панел.
+- **[Уроци по киберсигурност](https://github.com/Krumqnkata/cybersecurity-fake-virus)** — безопасна симулация на компютърен инцидент и [демонстрация на клавишни събития](https://github.com/Krumqnkata/cybersecurity-keylogger) за час.
 
-**Технически поглед към ПГКНМА Блог:** React и TypeScript изграждат интерфейса, а TanStack Query управлява заявките и кеширането на данни. Django REST API обработва заявките, проверява правата за достъп и работи с MySQL чрез Django ORM. Административният панел използва Django Unfold. Работя по свързването на тези части, разгръщането им на Linux сървър с Apache и поддръжката.
+Техническият преглед на ПГКНМА Блог е в английската част по-горе.
 
 **Извън кода:** участвам в училищни технологични проекти и дейностите на ИТ клуба, експериментирам с Arduino и RFID, занимавам се с 3D принтиране и подготовка на аудио.
 
-**За мен добрата идея оживява, когато някой започне да я използва.**
+**Контакт:** [krumidanikrumov@abv.bg](mailto:krumidanikrumov@abv.bg)
 
 </details>
 
 ---
 
 <p align="center">
-  <sub><b>Built with curiosity. Improved through practice.</b></sub><br>
   <sub>Кодът е началото. Ползата му дава смисъл.</sub>
 </p>
