@@ -27,10 +27,11 @@ Projects with private source code are included through descriptions of my work a
 <tr>
 <td colspan="2" valign="top">
 <h3><a href="https://pgknma.space">PGKNMA Blog — School Digital Platform</a></h3>
-<p>A school platform for articles, events, polls, profiles and notifications, with a React frontend, Django REST API and administration tools.</p>
-<p><b>My contribution:</b> frontend, backend API, deployment and maintenance.</p>
-<p><sub><b>React · TypeScript · Vite · Django REST Framework · MySQL</b></sub></p>
-<p><b><a href="https://pgknma.space">Website</a> · Private source</b></p>
+<p>A school platform for articles, events, polls, profiles and notifications, with a React frontend, Django REST API and administration tools. Open source under AGPL-3.0.</p>
+<p><b>My contribution:</b> frontend, backend API, deployment and maintenance, together with <a href="https://github.com/ythef0">ythef0</a> and <a href="https://github.com/lkbonev72">lkbonev72</a>.</p>
+<p><sub><b>React · TypeScript · Vite · Python · Django REST Framework · MySQL · Web Push</b></sub></p>
+<p><b><a href="https://pgknma.space">Website</a> · <a href="https://github.com/Krumqnkata/PGKNMA-Blog">Frontend code</a> · <a href="https://github.com/Krumqnkata/pgknma-blog-backend">Backend code</a></b></p>
+<p><a href="https://github.com/Krumqnkata/PGKNMA-Blog/actions/workflows/ci.yml"><img src="https://github.com/Krumqnkata/PGKNMA-Blog/actions/workflows/ci.yml/badge.svg?branch=main" alt="PGKNMA Blog frontend CI status"></a> <a href="https://github.com/Krumqnkata/pgknma-blog-backend/actions/workflows/ci.yml"><img src="https://github.com/Krumqnkata/pgknma-blog-backend/actions/workflows/ci.yml/badge.svg?branch=main" alt="PGKNMA Blog backend CI status"></a></p>
 <p><a href="https://pgknma.space"><img src="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/pgknma-blog-homepage.png" alt="Screenshot of the PGKNMA Blog homepage, showing the navigation, school introduction and school photograph" width="100%"></a></p>
 </td>
 </tr>
@@ -82,10 +83,12 @@ The platform combines a separate **React frontend** and **Django backend**, with
 - **Interface:** React, TypeScript and Vite power the pages; TanStack Query fetches and caches server data.
 - **API &amp; administration:** Django REST Framework validates requests and applies permissions. Django Unfold provides the content administration interface within the backend.
 - **Data &amp; deployment:** MySQL stores production records, with SQLite available for local development. The React build and Django service are deployed with Linux and Apache.
+- **Accounts &amp; notifications:** JWT sessions that users can review and revoke, Google sign-in, email verification and Cloudflare Turnstile against spam. Browser Web Push delivers notifications.
+- **Quality &amp; security:** GitHub Actions runs type checks, linting, Vitest and accessibility tests on the frontend and 400+ Django tests on the backend. CodeQL, Dependabot and secret scanning watch both repositories.
 
 **One request in practice:** when the news page needs fresh data, the frontend requests posts from the API. Django queries the database and returns JSON, which React uses to render the page.
 
-**My contribution:** frontend and API development, connecting the data flow, deployment and ongoing maintenance. The source lives in separate private repositories.
+**My contribution:** frontend and API development, connecting the data flow, deployment and ongoing maintenance, together with [ythef0](https://github.com/ythef0) and [lkbonev72](https://github.com/lkbonev72). The code is open source under AGPL-3.0: [frontend](https://github.com/Krumqnkata/PGKNMA-Blog) and [backend](https://github.com/Krumqnkata/pgknma-blog-backend).
 
 [Visit PGKNMA Blog →](https://pgknma.space)
 
@@ -154,7 +157,7 @@ I also experiment with **Arduino and RFID**, work with **3D printing**, and prep
 
 ## Current focus
 
-- **PGKNMA Blog** — developing the platform and maintaining its deployment.
+- **PGKNMA Blog** — developing the now open-source platform and maintaining its deployment.
 - **Stara Zagora Transit** — improving route discovery, timetables and vehicle data.
 - **Noise Meter** — room acoustics, sound recognition and norm-based reports.
 
@@ -198,7 +201,7 @@ I'm interested in educational tools, web applications and everyday automation. F
 
 **Избрани проекти:**
 
-- **[ПГКНМА Блог](https://pgknma.space)** — публикации, събития, анкети, профили и известия за училищната общност. Работя по React интерфейса, Django REST API и поддръжката. Кодът е частен.
+- **[ПГКНМА Блог](https://pgknma.space)** — публикации, събития, анкети, профили и известия за училищната общност. Работя по React интерфейса, Django REST API и поддръжката заедно с [ythef0](https://github.com/ythef0) и [lkbonev72](https://github.com/lkbonev72). Кодът е отворен под AGPL-3.0: [frontend](https://github.com/Krumqnkata/PGKNMA-Blog) и [backend](https://github.com/Krumqnkata/pgknma-blog-backend).
 - **[Сайтът на Даниела Крумова](https://logopedkrumova.com)** — професионален сайт на български и английски с адаптивен дизайн. Кодът е частен.
 - **[Транспорт Стара Загора](https://github.com/Krumqnkata/stara-zagora-transit)** — карта, линии, разписания и GPS позиции при налични данни.
 - **[Шумомер](https://github.com/Krumqnkata/noise-measure-tool)** — шумомер в браузъра с разпознаване на звуци, спектър, норми на ЕС и България и протоколи.
