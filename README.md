@@ -11,9 +11,9 @@ Lately I've been working on [**Extruda**](https://krumqnkata.github.io/extruda/)
 Outside of code I tinker with Arduino and RFID, 3D print a lot and edit audio.
 
 #### Let's connect!
-[![Portfolio](https://img.shields.io/badge/Portfolio-krumqnkata.github.io-63e6dc?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=0d1b2e)](https://krumqnkata.github.io)
-[![Email](https://img.shields.io/badge/Email-krumidanikrumov%40abv.bg-edc789?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=0d1b2e)](mailto:krumidanikrumov@abv.bg)
-[![На български](https://img.shields.io/badge/На_български-🇧🇬-6aa9ff?style=for-the-badge&labelColor=0d1b2e)](https://krumqnkata.github.io/bg/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-krumqnkata.github.io-dda15e?style=for-the-badge&logo=githubpages&logoColor=fefae0&labelColor=283618)](https://krumqnkata.github.io)
+[![Email](https://img.shields.io/badge/Email-krumidanikrumov%40abv.bg-bc6c25?style=for-the-badge&logo=maildotru&logoColor=fefae0&labelColor=283618)](mailto:krumidanikrumov@abv.bg)
+[![На български](https://img.shields.io/badge/На_български-🇧🇬-606c38?style=for-the-badge&labelColor=283618)](https://krumqnkata.github.io/bg/)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Krumqnkata/Krumqnkata/main/assets/generated/snake-dark.svg">

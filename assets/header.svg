@@ -1,43 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="390" viewBox="0 0 1280 390" role="img" aria-labelledby="title desc">
   <title id="title">Krum — student developer from Stara Zagora, Bulgaria</title>
-  <desc id="desc">A dark navy banner with cyan and gold accents. Krum builds practical software with Python, Java, web technologies and Linux.</desc>
+  <desc id="desc">A dark forest-green banner in the style of a Linux desktop, with cornsilk text and clay and copper accents. Krum builds practical software with Python, Java, web technologies and Linux.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101e35"/><stop offset="1" stop-color="#080f1c"/></linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#63e6dc"/><stop offset="1" stop-color="#6aa9ff"/></linearGradient>
-    <radialGradient id="glow"><stop stop-color="#234b73" stop-opacity=".42"/><stop offset="1" stop-color="#234b73" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#809fc6" stroke-opacity=".045"/></pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#283618"/><stop offset="1" stop-color="#161e0c"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#dda15e"/><stop offset="1" stop-color="#bc6c25"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#dda15e" stop-opacity=".16"/><stop offset="1" stop-color="#dda15e" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r="1.2" fill="#dda15e" fill-opacity=".1"/></pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="1278" height="388" rx="22"/></clipPath>
   </defs>
-  <rect x="1" y="1" width="1278" height="388" rx="22" fill="url(#bg)" stroke="#263850"/>
-  <rect x="1" y="1" width="1278" height="388" rx="22" fill="url(#grid)"/>
-  <ellipse cx="1060" cy="150" rx="300" ry="245" fill="url(#glow)"/>
-  <rect x="56" y="46" width="27" height="4" rx="2" fill="url(#accent)"/>
-  <text x="96" y="54" fill="#a3b4cb" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2.2">KRUMQNKATA / DEVELOPER PROFILE</text>
-  <text x="56" y="111" fill="#63e6dc" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.8">STUDENT DEVELOPER · STARA ZAGORA, BULGARIA</text>
-  <text x="51" y="220" fill="#f3f7ff" font-family="Arial, Helvetica, sans-serif" font-size="114" font-weight="700" letter-spacing="-5">Krum<tspan fill="#63e6dc">.</tspan></text>
-  <text x="58" y="268" fill="#c4d1e2" font-family="Arial, Helvetica, sans-serif" font-size="25">Code for the everyday.</text>
-  <path d="M58 299H706" stroke="#293b54"/>
-  <g font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.7">
-    <text x="58" y="339" fill="#edc789">01<tspan dx="5" fill="#a5b8d1">/ PYTHON</tspan></text>
-    <text x="238" y="339" fill="#edc789">02<tspan dx="5" fill="#a5b8d1">/ JAVA</tspan></text>
-    <text x="398" y="339" fill="#edc789">03<tspan dx="5" fill="#a5b8d1">/ WEB</tspan></text>
-    <text x="548" y="339" fill="#edc789">04<tspan dx="5" fill="#a5b8d1">/ LINUX</tspan></text>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="390" fill="url(#bg)"/>
+    <rect width="1280" height="390" fill="url(#dots)"/>
+    <ellipse cx="1000" cy="200" rx="330" ry="230" fill="url(#glow)"/>
+    <!-- top panel -->
+    <rect width="1280" height="34" fill="#212c13"/>
+    <path d="M0 34.5H1280" stroke="#364522"/>
+    <g font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="13">
+      <text x="24" y="22" fill="#dda15e" font-weight="700">&gt;_</text>
+      <text x="50" y="22" fill="#fefae0" font-weight="700">krum<tspan fill="#c3bf98">@</tspan><tspan fill="#b3c27a">stara-zagora</tspan></text>
+      <rect x="560" y="8" width="18" height="18" rx="4" fill="#dda15e"/><text x="565" y="22" fill="#1a2310" font-weight="700">1</text>
+      <text x="592" y="22" fill="#c3bf98">2</text><text x="616" y="22" fill="#c3bf98">3</text><text x="640" y="22" fill="#c3bf98">4</text><text x="664" y="22" fill="#c3bf98">5</text>
+      <text x="1170" y="22" fill="#ebe5c4">KrumOS</text>
+    </g>
   </g>
-  <g fill="none" stroke="#314862" stroke-width="1.5">
-    <path d="M820 87H1016L1046 57H1193"/>
-    <path d="M829 317H997L1034 354H1193"/>
-    <path d="M1154 146H1194V271H1124"/>
-    <circle cx="820" cy="87" r="5"/><circle cx="1193" cy="57" r="5"/>
-    <circle cx="829" cy="317" r="5"/><circle cx="1193" cy="354" r="5"/>
+  <rect x="1" y="1" width="1278" height="388" rx="22" fill="none" stroke="#606c38"/>
+
+  <rect x="56" y="78" width="27" height="4" rx="2" fill="url(#accent)"/>
+  <text x="96" y="86" fill="#c3bf98" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="14" letter-spacing="1.5">KRUMQNKATA / DEVELOPER PROFILE</text>
+  <text x="56" y="132" fill="#b3c27a" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="15" letter-spacing="1"><tspan fill="#dda15e">$</tspan> whoami</text>
+  <text x="50" y="232" fill="#fefae0" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="104" font-weight="700" letter-spacing="-4">Krum<tspan fill="#dda15e">.</tspan></text>
+  <text x="58" y="276" fill="#ebe5c4" font-family="Arial, Helvetica, sans-serif" font-size="24">Code for the everyday.</text>
+  <path d="M58 302H706" stroke="#364522"/>
+  <g font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="15" letter-spacing="1">
+    <text x="58" y="342" fill="#dda15e">01<tspan dx="6" fill="#c3bf98">/ PYTHON</tspan></text>
+    <text x="232" y="342" fill="#dda15e">02<tspan dx="6" fill="#c3bf98">/ JAVA</tspan></text>
+    <text x="388" y="342" fill="#dda15e">03<tspan dx="6" fill="#c3bf98">/ WEB</tspan></text>
+    <text x="530" y="342" fill="#dda15e">04<tspan dx="6" fill="#c3bf98">/ LINUX</tspan></text>
   </g>
-  <rect x="811" y="109" width="347" height="176" rx="14" fill="#0d1829" stroke="#36516e"/>
-  <path d="M812 150H1157" stroke="#293d56"/>
-  <circle cx="834" cy="131" r="4" fill="#edc789"/>
-  <circle cx="849" cy="131" r="4" fill="#6aa9ff"/>
-  <circle cx="864" cy="131" r="4" fill="#63e6dc"/>
-  <g font-family="monospace" font-size="18">
-    <text x="836" y="186" fill="#63e6dc">$ build something useful</text>
-    <text x="836" y="220" fill="#8fa7c4">school · community · tools</text>
-    <text x="836" y="258" fill="#edc789">idea <tspan fill="#7590b3">→</tspan> code <tspan fill="#7590b3">→</tspan> everyday life</text>
+
+  <!-- terminal window -->
+  <rect x="790" y="86" width="400" height="236" rx="12" fill="#1a2310" stroke="#606c38"/>
+  <path d="M790 98a12 12 0 0 1 12-12h376a12 12 0 0 1 12 12v22H790Z" fill="#2c3a1a"/>
+  <path d="M791 120.5H1189" stroke="#364522"/>
+  <circle cx="812" cy="103" r="5" fill="#bc6c25"/>
+  <circle cx="829" cy="103" r="5" fill="#dda15e"/>
+  <circle cx="846" cy="103" r="5" fill="#606c38"/>
+  <text x="990" y="108" fill="#c3bf98" font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="12.5" text-anchor="middle">krum@stara-zagora: ~ — bash</text>
+  <g font-family="'DejaVu Sans Mono', Consolas, monospace" font-size="16">
+    <text x="814" y="158"><tspan fill="#b3c27a">krum@stara-zagora</tspan><tspan fill="#c3bf98">:</tspan><tspan fill="#dda15e">~</tspan><tspan fill="#c3bf98">$</tspan><tspan fill="#fefae0"> ls</tspan></text>
+    <text x="814" y="188" fill="#ebe5c4">web/  desktop/  games/  3d/</text>
+    <text x="814" y="226"><tspan fill="#b3c27a">krum@stara-zagora</tspan><tspan fill="#c3bf98">:</tspan><tspan fill="#dda15e">~</tspan><tspan fill="#c3bf98">$</tspan><tspan fill="#fefae0"> ./build</tspan></text>
+    <text x="814" y="256" fill="#dda15e">idea <tspan fill="#c3bf98">→</tspan> code <tspan fill="#c3bf98">→</tspan> everyday life</text>
+    <text x="814" y="294"><tspan fill="#b3c27a">krum@stara-zagora</tspan><tspan fill="#c3bf98">:</tspan><tspan fill="#dda15e">~</tspan><tspan fill="#c3bf98">$</tspan></text>
   </g>
-  <rect x="1140" y="245" width="7" height="17" fill="#63e6dc" opacity=".75"/>
+  <rect x="1012" y="280" width="9" height="18" fill="#dda15e">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+  <!-- palette swatches -->
+  <g transform="translate(1046 342)">
+    <rect width="28" height="12" fill="#283618" stroke="#606c38"/><rect x="28" width="28" height="12" fill="#606c38"/><rect x="56" width="28" height="12" fill="#fefae0"/><rect x="84" width="28" height="12" fill="#dda15e"/><rect x="112" width="28" height="12" fill="#bc6c25"/>
+  </g>
 </svg>
